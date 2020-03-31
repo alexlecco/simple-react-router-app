@@ -54,10 +54,22 @@
 
 .header-status {
   position: fixed;
-  right: 50px;
+  right: 10px;
 }
 
 .footer {
   position: absolute ;
   bottom: 0;
+}
+
+.auth {
+  color: green;
+  cursor: pointer;
+  display: contents;
+}
+
+.no-auth {
+  color: red;
+  cursor: pointer;
+  display: contents;
 }

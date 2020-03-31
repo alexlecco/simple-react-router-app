@@ -4,7 +4,7 @@ import {
   Redirect
 } from 'react-router-dom'
 
-function PrivateRoute({component: Component, isAuth: isAuth, ...rest}) {
+function PrivateRoute({component: Component, isAuth, ...rest}) {
   return (
     <Route
       {...rest}
